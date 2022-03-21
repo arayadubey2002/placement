@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Placement Story</title>
+  <link rel="stylesheet" href="indexstyle.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:wght@300&display=swap" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <!-- for card images -->
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+    integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <!-- lnking stylesheet for cardimage -->
+  <link rel="stylesheet" href="page3.css">
+
+  <!-- linking for icons -->
+  <link rel="stylesheet" href="https://fontawesome.com/v4.7.0/">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+
+</head>
+
+<body>
+
+  <div class="hero-image">
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="active" id="icon">The Placement Story</a>
+      <a href="#service">Our Services</a>
+      <a href="#whyus">Why us?</a>
+      <a href="#contact">Contact</a>
+      <a href="#ourTeam">About Us</a>
+      <a href="#"><button id="myBtn" style="margin: 0%;">Login</button></a>
+
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <div class="hero-text">
+
+      <h2 style="font-size:50px">Welcome to</h2>
+      <h1> The <span> <Strong style="color:rgb(10, 199, 136) ;">Placement</Strong></span> Story</h1>
+      <button>Interview Experience</button>
+    </div>
+  </div>
+
+  <!-- model box for login -->
+  <!-- The Modal -->
+  <div id="myModal" class="modal">
+
+    <!-- Modal content -->
+    <div class="modal-content" style=" width: 50%; color: rgb(1, 167, 112)">
+      <span class="close">&times;</span>
+      <h1>The Placement Story</h1>
+      <div class="box" style="border: 2px solid rgb(1, 167, 112); text-align: center;">
+        <h2>Sign-In</h2>
+        <form action="login.php" method="POST">
+          <input type="email" name="email" placeholder=" Email"
+            style="border:  1px solid rgb(1, 167, 112); width: 70%; padding: 10px;margin-bottom: 10px; background-color: rgb(215, 250, 238);">
+          <br>
+          <input type="password" name="password" placeholder="Password"
+            style="border:  1px solid rgb(1, 167, 112); width: 70%; padding: 10px;margin-bottom: 10px; background-color: rgb(215, 250, 238);">
+          <br>
+          <button value="signin"
+            style="background-color: rgb(1, 167, 112);color: rgb(215, 250, 238); padding: 8px 13px 8px 13px; margin-bottom: 10px; border: none;">Log
+            In</button>
+          <button value="signin"
+            style="background-color: rgb(1, 167, 112);color: rgb(215, 250, 238); padding: 8px 13px 8px 13px; margin-bottom: 10px; border: none;">Log
+            In as a Preminum Member</button>
+
+        </form>
+      </div>
+
+      <div style="text-align: center;">
+        <p style="color:rgb(1, 167, 112) ; text-align: center;">Don't have an account?</p>
+        <a href="createAccount.php"><button value="signup"
+            style="color: rgb(215, 250, 238); text-align: center; background-color: rgb(1, 167, 112); padding: 8px 13px 8px 13px; margin-bottom: 10px; border: none;">Create
+            Account</button></a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Our services page with card images -->
+
+  <h1 id="service" style="text-align: center;">Our Services</h1>
+  <div class="body">
+    <div class="container">
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <div class="icon">
+              <a href="btech.html"><img src="img/B.Tech.jpg" alt="B.tech" class="serviceCardImg"> </a>
+            </div>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <h3>
+              <a href="btech.html" target="_blank">B.tech</a>
+            </h3>
+            <p>Campus Placement material,Complete Guide, Quizes, Partiular company syallbus and many more. </p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <div class="icon">
+              <a href="mba.html"> <img src="img/mbaimg.jpg" alt="MBA Image" class="serviceCardImg"></a>
+            </div>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <h3>
+              <a href="#" target="_blank">MBA</a>
+            </h3>
+            <p>Campus Placement material,Complete Guide, Quizes, Partiular company syallbus and many more.</p>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <div class="face face1">
+          <div class="content">
+            <div class="icon">
+              <img src="img/mtech.png" alt="MTECH">
+            </div>
+          </div>
+        </div>
+        <div class="face face2">
+          <div class="content">
+            <h3>
+              <a href="#" target="_blank" id="img3">M.tech</a>
+            </h3>
+            <p>Campus Placement material,Complete Guide, Quizes, Partiular company syallbus and many more.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Why us ! area -->
+  <h1 style="text-align: center;">Why Us ?</h1>
+  <div class="flex-container" id="whyus">
+
+    <div class="flex-item">
+      <div class="text">
+        <span class="material-icons">
+          attach_money
+        </span>
+
+        <h2>Completely Free !</h2>
+
+
+        <p>Everything is free,
+          You are not charged for any quiz or any study material,</p>
+      </div>
+    </div>
+    <div class="flex-item">
+      <div class="text">
+        <span class="material-icons">
+          person_off
+        </span>
+        <h2>No Registration !!!</h2>
+        <p>You don't have to register for accessing the files,
+          all the files are free & universally
+          accessible without any condition or restriction. </p>
+      </div>
+    </div>
+    <div class="flex-item">
+      <div class="item">
+
+        <span class="material-icons">
+          auto_stories
+        </span>
+        <h2>Complete Guid</h2>
+        <p>Complete Guide ,studying material for all subject,
+          full syallbus, hand written notes
+        </p>
+      </div>
+    </div>
+  </div>
+
+
+
+  <!-- Meet the team -->
+  <div class="ourTeam" id="ourTeam">
+    <h1 id="service">Meet the Team</h1>
+
+    <div class="teamContainer">
+      <div class="mem">
+        <img src="img/img_avatar2.png" alt="Its me">
+        <h3>Arya Dubey</h3>
+        <p>persuing b.tech from cse</p>
+        <h4>Founder</h4>
+
+      </div>
+
+      <div class="mem">
+        <img src="img/img_avatar.png" alt="Its me">
+        <h3>John Doe</h3>
+        <p>persuing b.tech from cse</p>
+        <button>Contact Me</button>
+      </div>
+    </div>
+</body>
+
+<script>
+  function myFunction() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+
+
+
+  // script for model box for login
+  // Get the modal
+  var modal = document.getElementById("myModal");
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("myBtn");
+
+  // Get the <span> element that closes the modal
+  var span = document.getElementsByClassName("close")[0];
+
+  // When the user clicks the button, open the modal 
+  btn.onclick = function () {
+    modal.style.display = "block";
+  }
+
+  // When the user clicks on <span> (x), close the modal
+  span.onclick = function () {
+    modal.style.display = "none";
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      modal.style.display = "none";
+    }
+  }
+  
+  window.alert('For demo purpose only "B.Tech" section of our service is having content')
+</script>
+
+</html>

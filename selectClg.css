@@ -1,0 +1,131 @@
+body{
+    background-color: rgb(20, 20, 46);
+    font-family: 'Acme', sans-serif;
+    /* margin: 0px; */
+}
+
+nav{
+    height: 50px;
+    background-color: white;
+}
+
+nav h1{
+    position: relative;
+    margin: 0px 0px 0px 20px;
+    top: 9px;
+    color: rgb(62, 167, 88);
+    float: left;
+}
+@media (max-width: 800px) {
+    .navbar {
+        height: 80px;
+        margin: 0px;
+    }
+    nav ul{
+        display: flex;
+        margin: 2px;
+        text-align: center;
+    }
+  }
+  
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.flex a{
+    text-decoration: none;
+    color: black;
+}
+input{
+    float: right;
+    margin: 5px 20px 5px 20px;
+    border: 2px solid rgb(211, 211, 211);
+    background-color: rgb(211, 211, 211);
+    border-radius: 5px;
+    padding: 6px 55px 6px 55px;
+    font-size: 20px;
+}
+.clg{
+    margin:20px auto;
+    padding: 40px 20px;
+    width: 300px;
+    text-align: center;
+    border-radius: 10px;
+    justify-content: space-around;
+    background-color: rgb(255, 205, 196);
+    
+
+}
+.one{
+    background-color: rgb(255, 224, 145);
+}
+.two{
+    background-color: rgb(190, 190, 190);
+}
+.three, .tabthree{
+    background-color: rgb(255, 205, 196);
+}
+.tabthree h1, h4{
+    color: rgb(255, 205, 196);
+}
+
+.four{
+    background-color: skyblue;
+}
+.five{
+    background-color: rgb(175, 255, 175);
+}
+.six{
+    background-color: rgb(255, 147, 147);
+}
+
+.clg{    
+    width: 300px;
+    height: 50px;
+    background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;   
+}
+.a{
+    background-image:linear-gradient(rgba(255, 224, 145,0.7), rgba(255, 224, 145, 0.7)), url("img/iitmadraslogo.png");
+
+}
+.b{
+    background-image:linear-gradient(rgba(190, 190, 190,0.7), rgba(190, 190, 190,0.7)), url("img/iitdelhi.png");
+
+}
+.c{
+    background-image:linear-gradient(rgba(255, 205, 196,0.7), rgba(255, 205, 196,0.7)), url("img/iitbombay.png");
+
+}
+.d{
+    background-image:linear-gradient(rgba(135, 206, 235,0.7), rgba(135, 206, 235,0.7)), url("img/iitkanpur.png");
+
+}
+/* styling the div containing table */
+.table{
+    text-align: center;
+}
+.table img{
+    height: 200px;
+    width: 200px;
+    
+}
+
+
+/* styling table */
+table{
+    width: 70%;
+    margin: auto;
+    
+}
+table td{
+    padding: 20px;
+}
+table,td,tr{
+    border: 3px solid rgb(20, 20, 46);
+    border-collapse: collapse;
+    border-radius: 10px;
+}
